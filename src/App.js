@@ -44,7 +44,7 @@ function App() {
             
           </div>
           <div className='desc'>Transit alert app</div>
-          <div className='icon'>
+          <div className='icon1'>
             <div className='pdes'><a href='https://vibecompass.wixstudio.com/newform'>The Vibe Compass</a></div>
           </div>
           <div className='desc'>Entry for Newform web challenge</div>
