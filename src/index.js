@@ -3,11 +3,20 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Galaxy from './Galaxy';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    
+      <Galaxy>
+        <div className='body1'>
+        <App />
+        </div>
+      
+       </Galaxy>
+    
+    
   </React.StrictMode>
 );
 

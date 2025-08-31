@@ -1,38 +1,171 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+QLD:wght@100..400&display=swap');
+
+* {
+  margin-top: -2px;
+  box-sizing: border-box;
+  
+
+}
+.wrapper {
+  margin: 1rem;
+  max-width: 100%;
+  max-height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.one, .two, .three, .four, .five, .six, .seven, .eight {
+  
+  border-radius: 15px;
+  background-color: rgba(110, 110, 110, 0.144);
+  backdrop-filter: blur(4px);
+  
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 0;
+  color: #ffffff;
+  opacity: 0.8;
+  font-family: 'Playwrite AU QLD', sans-serif;
+  font-size:21px;
+ 
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 15px;
+  grid-template-rows: repeat(4, 1fr);
+ 
+}
+.one {
+  
+  grid-column: 1 /2;
+  grid-row: 1/13;
+  padding: 20px;
+}
+.two {
+  grid-column: 2 / 5;
+  grid-row: 1 / 8;
+   padding: 20px;
+  
+}
+.three {
+  grid-column: 1/3;
+  grid-row: 13/25;
+  
+}
+.four {
+  grid-column: 6/9;
+  grid-row: 1/8;
+}
+.five {
+  grid-column: 5/6;
+  grid-row: 1/8;
+  
+}
+.six {
+  grid-column: 3 ;
+  grid-row: 13/25;
+}
+.seven {
+  grid-column: 4/6 ;
+  grid-row: 13/25;
+}
+.eight {
+  grid-column: 6/9 ;
+  grid-row: 8/25;
+}
+.text {
+  grid-column:  2/6;
+  grid-row: 8/13;
+  background-color: rgba(110, 110, 110, 0.144);
+  backdrop-filter: blur(6px);
+  padding-top: 23px;
+  padding-bottom: 23px;
+  font-size: 33px;
   text-align: center;
+  border-radius: 15px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  color: #ffffff;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.about{
+  text-align: justify;
+  margin-top: 10px;
+  font-size: 11px;
+  width:100%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.quote{
+  font-size:18px;
+  text-align: center;
+  margin-top: 25px;
+  color: #ffffff;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.languages{
+  font-size: 13px;
+  text-align: center;
+  text-align: left;
+  margin-top: 10px;
+  font-family: 'Courier New', Courier, monospace;
+  margin-left: -35px;
+}
+.ilustr{
+  font-family: 'Courier New', Courier, monospace;
+}
+.img{
+  background-image: url("C:\Users\SHREYA R\Desktop\SHREYA\Coding Stuff\portfolio1\ps\pfp.png");
+  opacity: 100%;
+  width: 100px;
+  height: 100px;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-left: 33px;
+  margin-top: 50px;
+}
+.link{
+  font-size: small;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  
+
+}
+a:link {
+  color: rgb(230, 230, 255); /* Sets color for unvisited links */
 }
 
-.App-link {
-  color: #61dafb;
+a:visited {
+  color: rgb(248, 226, 254); /* Sets color for visited links */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a:hover {
+  color: rgb(113, 255, 189); 
+}
+
+a:active {
+  color: rgb(0, 200, 255); 
+}
+.smallt{
+  text-decoration: none;
+  font-size: 8px;
+}
+.pdes{
+  font-family: 'Courier New', Courier, monospace;
+  margin-top: 20px ;
+  margin-left: 50px;
+  font-size: 18px;
+  font-weight: bold;
+  width: 100px;
+}
+.icon{
+  height:40px;
+  width:40px;
+  border-radius: 50%;
+  background-image: url("C:\Users\SHREYA R\Desktop\SHREYA\Coding Stuff\portfolio1\ps\icon.png");
+  background-size: cover;
+
+}
+.desc{
+  width: 150px;
+  font-size: 13px;
+  font-family: 'Courier New', Courier, monospace;
+  margin-top: 5px;
+  margin-left: 50px;
 }
