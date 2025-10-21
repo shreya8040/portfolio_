@@ -8,15 +8,15 @@
 }
 .wrapper {
   margin: 1rem;
-  max-width: 100%;
-  max-height: 100%;
+  max-width: 99%;
+  max-height: 99%;
   position: relative;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 .one, .two, .three, .four, .five, .six, .seven, .eight {
   
   border-radius: 15px;
-  background-color: rgba(110, 110, 110, 0.365);
+  background-color: rgba(77, 77, 77, 0.447);
   backdrop-filter: blur(4px);
   
   padding-right: 10px;
@@ -91,7 +91,7 @@
 .about{
   text-align: justify;
   margin-top: 10px;
-  font-size: 13px;
+  font-size: 12px;
   width:100%;
 }
 .quote{
