@@ -9,10 +9,10 @@ function App() {
         <div className="one">Coding
           <div className='languages'>
            <ul><br/>
-            <h4>C, C++</h4>
+            <h4>C/C++</h4>
             <h4>Java</h4>
             <h4>Python</h4>
-            <h4>HTML+CSS</h4>
+            <h4>HTML/CSS</h4>
             <h4>JavaScript</h4>
             <h4>-React, Node, p5, Electron</h4>
             <h4>Vibe coding</h4>
@@ -40,7 +40,7 @@ function App() {
         </div>
         <div className="four">Projects
           <div className='icon'>
-            <div className='pdes'><a href='https://www.linkedin.com/feed/update/urn:li:activity:7362475425710690304/' target='_blank' rel="noreferrer">PSA Bengaluru</a></div>
+            <div className='pdes'><a href='https://psa-bengaluru.vercel.app/' target='_blank' rel="noreferrer">PSA Bengaluru</a></div>
             
           </div>
           <div className='desc'>Transit alert app</div>
