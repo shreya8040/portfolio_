@@ -16,7 +16,7 @@
 .one, .two, .three, .four, .five, .six, .seven, .eight {
   
   border-radius: 15px;
-  background-color: rgba(110, 110, 110, 0.144);
+  background-color: rgba(110, 110, 110, 0.365);
   backdrop-filter: blur(4px);
   
   padding-right: 10px;
@@ -91,7 +91,7 @@
 .about{
   text-align: justify;
   margin-top: 10px;
-  font-size: 11px;
+  font-size: 13px;
   width:100%;
 }
 .quote{
