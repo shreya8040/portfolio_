@@ -11,12 +11,12 @@
   max-width: 99%;
   max-height: 99%;
   position: relative;
-  overflow-x: hidden;
+  
 }
 .one, .two, .three, .four, .five, .six, .seven, .eight {
   
   border-radius: 15px;
-  background-color: rgba(77, 77, 77, 0.447);
+  background-color: rgba(43, 42, 42, 0.447);
   backdrop-filter: blur(4px);
   
   padding-right: 10px;
