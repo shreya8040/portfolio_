@@ -33,7 +33,7 @@ function App() {
             <h4>Krita</h4>
             <h4>Adobe Fresco</h4>
             <h4>Infinite painter</h4>
-            
+             <h4>Canva</h4>
             </ul>
           </div>
           
